@@ -7,3 +7,10 @@ button{
   margin-top: 30rpx;
   margin-bottom: 30rpx;
 }
+
+.bottom_bar{
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
