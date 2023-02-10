@@ -25,7 +25,6 @@ Page({
   onLoad:function(){
     this.schoolIndex=0;
     this.mapCtx = wx.createMapContext('map', this);
-    this.height=0;
   },
 
   onClick:function(){
@@ -73,6 +72,7 @@ Page({
     });
     this.json=res.data;
     callback();
+
     // wx.request({
     //   url: 'http://127.0.0.1:5000/birth',
     //   data:{
