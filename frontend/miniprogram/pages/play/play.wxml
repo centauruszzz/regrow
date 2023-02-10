@@ -1,0 +1,8 @@
+
+<view class="container">
+    <map class="map" id="map" markers="{{markers}}" latitude="37" longitude="107" scale="{{scale}}" ></map>
+    <view wx:for="{{msgList}}">
+      <button type="default" plain="true" style="width: 700rpx;">{{item.message}}</button>
+    </view>
+    <button type="primary" bindtap="onClick">{{button_msg}}</button>
+</view>

@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/play/play"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序不会获取你的位置信息，而是需要使用map组件"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
